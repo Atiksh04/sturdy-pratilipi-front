@@ -1,0 +1,44 @@
+
+.App{
+  background-color: white;
+  padding-left:10vw;
+  padding-right:10vw;
+  .home{
+    .car-image{
+      width:60vw;
+      height:38vh;
+    }
+    .cards{
+      height:35vh;
+    }
+    .view-list{
+    height:40vh;
+      }
+  }
+    .header-span{
+      display: none;
+      height:10vh;
+      .col-xs-4{
+        width:33.3% !important;
+      }
+      .icons{
+        width:25px;
+        height:25px;
+      }
+      .icon-selected{
+        color:#d00b12;
+        width:25px;
+        height:25px;
+      } 
+  }
+}
+
+@media (max-width:1065px){
+ .App{
+ 
+    .header-span{
+      display: flex;
+    }
+  
+}
+}
